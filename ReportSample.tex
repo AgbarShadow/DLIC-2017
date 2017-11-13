@@ -1,0 +1,85 @@
+\documentclass[runningheads]{llncs}
+%---- Coding----%
+\usepackage[utf8]{inputenc}  % for Unix and Windows
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{llncsdoc}
+%----- Math symbols ---%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumerate}
+
+\begin{document}
+
+\mainmatter
+\title{Deep Learning Industrial Challenge (DLIC 2017) 
+}
+\titlerunning{Title}
+\author{Akbar Shadakov}
+\authorrunning{Your Name}
+\institute{SPOTSeven Lab\\
+ Cologne University of Applied Sciences}
+\date{May 2014}
+\maketitle
+
+\begin{abstract} abstract comes here
+\end{abstract}
+
+\section{Introduction}
+This article illustrates how an existing algorithm, namely simulated annealing, can be tuned using the
+SPOT framework.
+
+Related work.
+
+Section~\ref{sec:tsp} introduces TSP.
+Section~\ref{sec:sann} describes Simulated Annealing.
+
+\section{Traveling Salesman Problems}\label{sec:tsp}
+\subsection{Definitions}
+\subsection{Implementation in R}
+
+\section{Simulated Annealing}\label{sec:sann}
+\subsection{The Algorithm}
+
+\subsection{Implementation in R}
+
+\section{Sequential Parameter Optimization}
+\subsection{Overview}
+ The SPOT package can be installed from within R using the 
+\begin{verbatim}
+install.packages("SPOT")
+\end{verbatim}
+command. Alternatively, SPOT can 
+downloaded from the
+comprehensive R  archive network at \url{http://CRAN.R-project.org/package=SPOT}.
+The latter procedure is recommended for the experienced R user only. 
+SPOT is one possible implementation of the \emph{sequential parameter optimization}\/
+(SPO) framework introduced in~\cite{Bart06a}.
+For a detailed documentation of the functions from the SPOT package, the
+reader is referred to the package help manuals.
+\cite{Bart12i} introduces the SPOT and applications.
+\subsection{Interfacing With Simulated Annealing}
+In Figure~\ref{fig:tune2} the tuning is shown.
+
+
+%\begin{figure}
+%\includegraphics[width=0.9\linewidth]{cnt0015Ackley83.pdf}
+%\caption{Tuning with SPOT}
+%\label{fig:tune2}
+%\end{figure}
+
+\section{Experiments}
+
+\section{Results}
+
+\section{Discussion}
+
+\section{Summary}
+Knuth says:
+\cite{knuth2005art}
+
+\bibliographystyle{splncs03}
+\bibliography{ReportSample}
+
+\end{document}
